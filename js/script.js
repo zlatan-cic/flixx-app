@@ -9,7 +9,7 @@ const global = {
   },
 };
 
-// show 20 popular movies
+// show 20 popular movies // //
 async function displayPopularMovies() {
   // "*""Curly braces {results} are used, and then we have a straight array.""*"
   const { results } = await fetchAPIData("/movie/popular");
